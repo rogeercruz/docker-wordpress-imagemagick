@@ -1,6 +1,6 @@
 ## Docker environment to develop wordpress projects with imageMagick
 #### This environment contains:
-  - Wordpress = /php/apache/imagick
+  - Wordpress = php + apache + imagick
   - PhpMyadmin
   - Mysql
 
