@@ -1,14 +1,14 @@
-# Docker environment to develop wordpress projects with imageMagick
-## Content:
+## Docker environment to develop wordpress projects with imageMagick
+#### This environment contains:
   - Wordpress = /php/apache/imagick
   - PhpMyadmin
   - Mysql
 
-By default the WP container will run at port 80
-PhpMyadmin will run at 8080 and mysql at 3606
+By default the WordPress container will run at port 80 (is possible to change this inside docker-compose.yml),
+phpMyAdmin will run at 8080 and mysql at 3606
 The '.env' file sets the environment variables.
 
-### To run it is necessary install docker.
+#### To run it is necessary to install [docker!](https://www.docker.com/)
 #### In the terminal type
 
 ```
